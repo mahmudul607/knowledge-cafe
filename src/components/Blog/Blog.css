@@ -1,0 +1,33 @@
+
+
+
+.details .row .left img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.details .top_row{
+    display: flex;
+    justify-content: space-between;
+}
+.details .row .left, .hashtages{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 10px;
+    
+}
+.details{
+     text-align: left;
+    }
+.details .title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.hashtages{
+    gap: 8px;
+}
+.marker p{
+    text-decoration: underline;
+    cursor: pointer;
+}
